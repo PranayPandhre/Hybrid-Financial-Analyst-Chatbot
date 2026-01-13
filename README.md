@@ -50,13 +50,12 @@ streamlit run app.py
 ### 1.7 Optional test commands
 ```bash
 python test_agent.py
+python test_db.py
 python test_env.py
 python test_llm.py
-python test_db.py
-python test_retrieve.py
 python test_rag_answer.py
-python test_agent.py
-python 
+python test_retrieve.py
+python test_router.py
 ```
 
 ## 2. Architecture
@@ -190,6 +189,7 @@ The following assumptions were made during implementation:
 └── test_.py
 
 ```
+
 
 
 
